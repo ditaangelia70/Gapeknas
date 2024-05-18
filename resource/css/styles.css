@@ -1,0 +1,227 @@
+/* navbar dropdown */
+.dropdown-item {
+    white-space: normal; 
+    text-overflow: ellipsis; 
+}
+.dropdown-menu {
+    max-width: 300px; 
+}
+
+/* hero slider */
+.carousel-caption h5 {
+    color: #ffce2b;
+    margin-bottom: 20px;
+}
+.carousel-caption p {
+    margin-bottom: 30px;
+}
+.btn-primary {
+    background-color: #D40C0C;
+    border-color: #D40C0C;
+}
+.btn-primary:hover {
+    background-color: #8c0808;
+    border-color: #8c0808;
+}
+.carousel-caption {
+    margin-bottom: 100px;
+}
+
+@media (max-width: 768px) {
+    .carousel-caption h5 {
+        font-size: 1.5rem;
+        margin-bottom: 10px; 
+    }
+    .carousel-caption p {
+        font-size: 1rem; 
+        margin-bottom: 20px; 
+    }
+    .carousel-caption {
+        margin-bottom: 50px; 
+    }
+}
+
+/* Lembaga Sertifikasi */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.centered-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-box {
+    width: 628px;
+    height: 408.7px;
+    background-color: #940808;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center;
+    color: #fff;
+}
+
+.icon img {
+    width: 100px; 
+    height: 100px; 
+}
+
+@media (max-width: 768px) {
+    .content-box {
+        width: 90%;
+        padding: 10px; 
+    }
+    .icon img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+/* Visi Misi */
+.circle-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .content-box {
+        width: 90%;
+        padding: 10px;
+    }
+    .icon img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+/* Tentang Kami */
+.center-block {
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px; 
+    width: 100%; 
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto; 
+}
+
+.hero {
+    position: relative;
+    text-align: center; 
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: #fff; 
+    text-align: center;
+}
+
+.hero-content h5,
+.hero-content p {
+    margin: 0; 
+}
+
+.hero-content h5 {
+    color: #ffce2b;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background-color: #d40c0c;
+    border-color: #d40c0c;
+}
+
+.btn-primary:hover {
+    background-color: #8c0808;
+    border-color: #8c0808;
+}
+
+.hero-content {
+    margin-bottom: 100px;
+}
+
+
+/* Layanan Kami */
+.layanan-kami {
+    background-color: #f8f9fa; 
+    color: #000000; 
+    padding: 40px 20px; 
+    text-align: center; 
+}
+
+.layanan-kami .content {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.layanan-kami h5 {
+    color: #d40c0c; 
+    margin-bottom: 20px; 
+}
+
+.layanan-kami p {
+    color: #000000; 
+    margin-bottom: 20px; 
+}
+
+/* Icon Footer */
+.icon-contact a {
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px; 
+    margin: 10px; 
+    text-align: center;
+    border-radius: 5px;
+  }
+  .icon-contact a:hover {
+    background-color: #555;
+    text-decoration: none;
+  }
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+  }
+  .footer .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .footer .info i {
+    margin-right: 10px;
+  }
+  .footer .info p {
+    margin: 0;
+    padding: 5px 0;
+  }
+  .footer .map {
+    height: 200px;
+  }
+  @media (max-width: 767px) {
+    .footer .info, .footer .map {
+      text-align: center;
+    }
+    .footer .info {
+      margin-bottom: 20px;
+    }
+  }
