@@ -1,0 +1,50 @@
+/* navbar dropdown */
+.dropdown-item {
+    white-space: normal; 
+    text-overflow: ellipsis; 
+}
+.dropdown-menu {
+    max-width: 300px; 
+}
+
+/* Reminder */
+.custom-center-block {
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px;
+    background-color: #ff0000;
+    margin-top: 100px;
+}
+
+.custom-center-block .content h5,
+.custom-center-block .content p {
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* Layanan Kami */
+.SBU {
+    background-color: #f8f9fa; 
+    color: #000000; 
+    padding: 40px 20px; 
+    text-align: center; 
+}
+
+.SBU .content {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+.SBU p {
+    color: #000000; 
+    margin-bottom: 20px; 
+}
+
+.judul-table {
+    background-color: #f8f9fa; 
+    color: #ff0000; 
+    padding: 40px 20px; 
+    text-align: center; 
+}
