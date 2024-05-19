@@ -37,6 +37,11 @@
     margin: 0 auto; 
 }
 
+.SBU h5 {
+    color: #ff0000; 
+    margin-bottom: 20px; 
+}
+
 .SBU p {
     color: #000000; 
     margin-bottom: 20px; 
@@ -48,3 +53,11 @@
     padding: 40px 20px; 
     text-align: center; 
 }
+
+.table-section {
+    display: none;
+}
+.table-section.active {
+    display: table-row-group;
+}
+

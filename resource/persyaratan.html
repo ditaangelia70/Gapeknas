@@ -25,10 +25,10 @@
                 <a class="nav-link" href="#">Persyaratan SBU Baru</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Tentang Kami</a>
+                <a class="nav-link" href="/resource/tentang.html">Tentang Kami</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Biaya Sertifikasi</a>
+                <a class="nav-link" href="/resource/biaya.html">Biaya Sertifikasi</a>
             </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -72,103 +72,154 @@
     </div>
 </div>
 <!-- table -->
-<div class="container mt-5">
-    <h5 class="judul-table">Klasifikasi Bangunan Gedung dan Sipil</h5>
-    <div class="table-responsive">
-      <table class="table table-bordered">
-        <thead class="thead-dark">
-          <tr>
-            <th scope="col">Nomor</th>
-            <th scope="col">Jenis Usaha</th>
-            <th scope="col">Sifat Usaha</th>
-            <th scope="col">Kualifikasi</th>
-            <th scope="col">Kategori Badan Usaha</th>
-            <th scope="col">Kualifikasi Detail</th>
-            <th scope="col">Jumlah Sub Kualifikasi</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>Contoh Usaha 1</td>
-            <td>Umum</td>
-            <td>
-              <table class="table mb-0">
-                <tbody>
-                  <tr><td>Kecil</td></tr>
-                  <tr><td>Menengah</td></tr>
-                  <tr><td>Besar</td></tr>
-                </tbody>
-              </table>
-            </td>
-            <td>
-              <table class="table mb-0">
-                <tbody>
-                  <tr><td>BUJKN</td></tr>
-                  <tr><td>KP BUJKA</td></tr>
-                </tbody>
-              </table>
-            </td>
-            <td>
-              <table class="table mb-0">
-                <tbody>
-                  <tr><td>BG</td></tr>
-                  <tr><td>BS</td></tr>
-                </tbody>
-              </table>
-            </td>
-            <td>
-                <table class="table mb-0">
-                  <tbody>
-                    <tr><td>BG</td></tr>
-                    <tr><td>BS</td></tr>
-                  </tbody>
-                </table>
-            </td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>Contoh Usaha 2</td>
-            <td>Spesialis</td>
-            <td>0</td>
-            <td>
-              <table class="table mb-0">
-                <tbody>
-                  <tr><td>BUJKN</td></tr>
-                  <tr><td>KP BUJKA</td></tr>
-                </tbody>
-              </table>
-            </td>
-            <td>
-              <table class="table mb-0">
-                <tbody>
-                  <tr><td>PL</td></tr>
-                  <tr><td>PA</td></tr>
-                  <tr><td>KK</td></tr>
-                  <tr><td>KP</td></tr>
-                  <tr><td>IN</td></tr>
-                  <tr><td>PB</td></tr>
-                </tbody>
-              </table>
-            </td>
-            <td>
-                <table class="table mb-0">
-                  <tbody>
-                    <tr><td>PL</td></tr>
-                    <tr><td>PA</td></tr>
-                    <tr><td>KK</td></tr>
-                    <tr><td>KP</td></tr>
-                    <tr><td>IN</td></tr>
-                    <tr><td>PB</td></tr>
-                  </tbody>
-                </table>
-              </td>
-          </tr>
-        </tbody>
+<div class="container">
+  <h5 class="judul-table">Klasifikasi Bangunan Gedung dan Sipil</h5>
+  <div class="table-responsive">
+      <table class="table">
+          <thead class="thead-light">
+              <tr>
+                  <th scope="col">Nomor</th>
+                  <th scope="col">Jenis Usaha</th>
+                  <th scope="col">Sifat Usaha</th>
+                  <th scope="col">Kualifikasi</th>
+                  <th scope="col">Kategori Badan Usaha</th>
+                  <th scope="col">Kualifikasi</th>
+                  <th scope="col">Jumlah Sub Kualifikasi</th>
+              </tr>
+          </thead>
+          <tbody id="section1" class="table-section active">
+              <tr>
+                  <td rowspan="8">1</td>
+                  <td rowspan="8">Pekerjaan Konstruksi</td>
+                  <td rowspan="2">Umum</td>
+                  <td rowspan="6">Spesialis</td>
+                  <td rowspan="6">BUJKN & KP BUJKA</td>
+                  <td>Bangunan Gedung (BG)</td>
+                  <td>9</td>
+              </tr>
+              <tr>
+                  <td>Bangunan Sipil (BS)</td>
+                  <td>20</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">Kecil, Menengah, Besar</td>
+                  <td>Persiapan (PL)</td>
+                  <td>8</td>
+              </tr>
+              <tr>
+                  <td>Penyewaan Peralatan (PA)</td>
+                  <td>1</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">BUJKN & KP BUJKA</td>
+                  <td>Konstruksi Khusus (KK)</td>
+                  <td>16</td>
+              </tr>
+              <tr>
+                  <td>Konstruksi Prapabrikasi (KP)</td>
+                  <td>2</td>
+              </tr>
+              <tr>
+                  <td>Instalasi (IN)</td>
+                  <td>13</td>
+              </tr>
+              <tr>
+                  <td>Penyelesaian Pembangunan</td>
+                  <td>8</td>
+              </tr>
+          </tbody>
+          <tbody id="section2" class="table-section">
+              <!-- Data for slide 2 -->
+              <tr>
+                  <td rowspan="8">2</td>
+                  <td rowspan="8">Usaha Lain</td>
+                  <td rowspan="2">Umum</td>
+                  <td rowspan="6">Spesialis</td>
+                  <td rowspan="6">BUJKN & KP BUJKA</td>
+                  <td>Jenis 1</td>
+                  <td>5</td>
+              </tr>
+              <tr>
+                  <td>Jenis 2</td>
+                  <td>10</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">Kecil, Menengah, Besar</td>
+                  <td>Jenis 3</td>
+                  <td>7</td>
+              </tr>
+              <tr>
+                  <td>Jenis 4</td>
+                  <td>3</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">BUJKN & KP BUJKA</td>
+                  <td>Jenis 5</td>
+                  <td>12</td>
+              </tr>
+              <tr>
+                  <td>Jenis 6</td>
+                  <td>6</td>
+              </tr>
+              <tr>
+                  <td>Jenis 7</td>
+                  <td>11</td>
+              </tr>
+              <tr>
+                  <td>Jenis 8</td>
+                  <td>4</td>
+              </tr>
+          </tbody>
+          <tbody id="section3" class="table-section">
+              <!-- Data for slide 3 -->
+              <tr>
+                  <td rowspan="8">3</td>
+                  <td rowspan="8">Usaha Tambahan</td>
+                  <td rowspan="2">Umum</td>
+                  <td rowspan="6">Spesialis</td>
+                  <td rowspan="6">BUJKN & KP BUJKA</td>
+                  <td>Jenis A</td>
+                  <td>15</td>
+              </tr>
+              <tr>
+                  <td>Jenis B</td>
+                  <td>25</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">Kecil, Menengah, Besar</td>
+                  <td>Jenis C</td>
+                  <td>9</td>
+              </tr>
+              <tr>
+                  <td>Jenis D</td>
+                  <td>2</td>
+              </tr>
+              <tr>
+                  <td rowspan="2">BUJKN & KP BUJKA</td>
+                  <td>Jenis E</td>
+                  <td>17</td>
+              </tr>
+              <tr>
+                  <td>Jenis F</td>
+                  <td>8</td>
+              </tr>
+              <tr>
+                  <td>Jenis G</td>
+                  <td>14</td>
+              </tr>
+              <tr>
+                  <td>Jenis H</td>
+                  <td>7</td>
+              </tr>
+          </tbody>
       </table>
-    </div>
   </div>
-
+  <div class="text-center">
+      <button class="btn btn-primary" onclick="showSection(1)">1</button>
+      <button class="btn btn-primary" onclick="showSection(2)">2</button>
+      <button class="btn btn-primary" onclick="showSection(3)">3</button>
+  </div>
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>

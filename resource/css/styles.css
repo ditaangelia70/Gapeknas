@@ -201,6 +201,8 @@ body, html {
   .footer {
     background-color: #f8f9fa;
     padding: 20px 0;
+    width: 100%;
+    margin: 0 auto;
   }
   .footer .info {
     display: flex;
@@ -225,3 +227,34 @@ body, html {
       margin-bottom: 20px;
     }
   }
+
+  /* Hero Tentang Kami */
+  .hero-tentang {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.centered-frame-tentang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-box-tentang {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-tentang {
+    text-align: justify;
+}
+@media (max-width: 768px) {
+    .hero-tentang {
+        width: 90%;
+        padding: 10px; 
+    }
+}
